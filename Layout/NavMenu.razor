@@ -1,0 +1,16 @@
+﻿<nav class="navbar-light border-bottom border-dark mb-5">
+    <div class="navCon navbar justify-content-between m-auto navbar-expand-lg">
+        <NavLink class="nav-link logoa p-4 " href="/">
+            <h1 class="display-6 logo">Moment 1.2 - Blazor WebAssembly</h1>
+        </NavLink>
+        <div class="navbar-nav navdate">
+            @{
+                    string? date = DateTime.Now.ToString("yyyy/MM/dd");
+            }
+            <p class="nav-item nav-link mt-3 text-black border border-dark">Dagens datum är: @date</p>
+        </div>
+    </div>
+</nav>
+
+
+

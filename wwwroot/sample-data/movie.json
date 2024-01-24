@@ -1,0 +1,43 @@
+﻿[{
+        "Titel": "Star Wars: The Phantom Menace",
+        "Director": "George Lucas",
+        "Category": "Fantasy",
+        "RealiseYear": 1999
+    },
+    {
+        "Titel": "Star Wars: Return of the jedi",
+        "Director": "Richars Marquand",
+        "Category": "Fantasy",
+        "RealiseYear": 1983
+    },
+    {
+        "Titel": "The Hunger games",
+        "Director": "Gary Ross",
+        "Category": "Thriller",
+        "RealiseYear": 2012
+    },
+    {
+        "Titel": "The Godfather",
+        "Director": "Francis Ford Coppola",
+        "Category": "Drama",
+        "RealiseYear": 1972
+    },
+    {
+        "Titel": "Harry Potter and the Sorcerer's stone",
+        "Director": "Cris Columbus",
+        "Category": "Fantasy",
+        "RealiseYear": 2001
+    },
+    {
+        "Titel": "Harry Potter and the Chamber of Secrets",
+        "Director": "Cris Columbus",
+        "Category": "Fantasy",
+        "RealiseYear": 2002
+    },
+    {
+        "Titel": "Harry Potter and the Prisoner of Azkaban",
+        "Director": "Alfonso Cuaron",
+        "Category": "Fantasy",
+        "RealiseYear": 2004
+    }
+]

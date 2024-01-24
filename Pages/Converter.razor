@@ -1,0 +1,42 @@
+﻿
+@page "/converter"
+
+<PageTitle>Converter</PageTitle>
+
+<h1>Converter</h1>
+
+
+<h2 class="mt-4">Meter till fot</h2>
+<label for="meter">Antal meter:</label>
+<input @oninput="test" type="number" @bind="meter">
+<button class="btn btn-primary" @onclick="test">Konventera</button>
+
+<h3>@meter m är @foot.ToString("F2") fot</h3>
+
+@code {
+    private double meter = 0;
+    private double foot = 0;
+
+    private void test()
+    {
+        foot = 3.280839895 * meter;
+
+    }
+}
+
+<h2 class="mt-4">Kph till mph</h2>
+<label for="km">Antal kph:</label>
+<input type="number" @bind="km">
+<button class="btn btn-primary" @onclick="ConvertToMiles">Konventera</button>
+
+<h3>@km kph är @Math.Round(mile) mph</h3>
+
+@code {
+    private double km = 0;
+    private double mile = 0;
+
+    private void ConvertToMiles()
+    {
+        mile = 0.621371192 * km;
+    }
+}

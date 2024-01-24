@@ -1,0 +1,52 @@
+﻿@page "/Json"
+@inject HttpClient Http
+
+<PageTitle>Json</PageTitle>
+
+<h1>Filmer från JSON-fil</h1>
+@if(movie == null){
+    <p>Laddar...</p>
+}else{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Titel</th>
+                <th scope="col">Producent</th>
+                <th scope="col">Kategori</th>
+                <th scope="col" >Utgivningsår</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var movie in movie){
+                <tr>
+                    <td>@movie.Titel</td>
+                    <td>@movie.Director</td>
+                    <td>@movie.Category</td>
+                    <td>@movie.RealiseYear</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    //Array för filmer
+    private Movie[]? movie;
+
+    //HTTP-anrop 
+    protected override async Task OnInitializedAsync()
+    {
+        movie = await Http.GetFromJsonAsync<Movie[]>("sample-data/movie.json");
+    }
+    //Model för filmer
+    public class Movie
+    {
+        public string? Titel { get; set; }
+
+        public string? Director { get; set; }
+
+        public string? Category { get; set; }
+
+        public int? RealiseYear { get; set; }
+    }
+}

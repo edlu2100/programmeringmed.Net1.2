@@ -1,0 +1,37 @@
+<!-- I din Blazor WebAssembly-komponent (.razor) -->
+@inject NavigationManager NavigationManager
+
+<nav class="sidenav border border-dark">
+    <div class="navbar d-sm-inline-flex w-100">
+        <ul class="navbar-nav flex-grow-1 text-center">
+            <li class="nav-item m-auto w-75 mb-3 border border-dark @(IsActiveLink("/") ? "active " : "")">
+                <NavLink class="nav-link" href="/">
+                    <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Start
+                </NavLink>
+            </li>
+            <li class="nav-item m-auto border border-dark w-75 mb-3 @(IsActiveLink("converter") ? "active" : "")">
+                <NavLink class="nav-link" href="converter">
+                    <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Converter
+                </NavLink>
+            </li>
+            <li class="nav-item m-auto border border-dark w-75 @(IsActiveLink("json") ? "active" : "")">
+                <NavLink class="nav-link" href="json">
+                    <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Json
+                </NavLink>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+@code {
+    //Ändrar färg i meny för aktiv länk
+    bool IsActiveLink(string path)
+    {
+    // Hämta den aktuella URL-en
+    var currentUrl = NavigationManager.Uri;
+
+    // Jämför den aktuella URL-en med länkens path (oavsett bokstävernas fall)
+    return currentUrl.Equals(path, StringComparison.OrdinalIgnoreCase);
+    }
+}
