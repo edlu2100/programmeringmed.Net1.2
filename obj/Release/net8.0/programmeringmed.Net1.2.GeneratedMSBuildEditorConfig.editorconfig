@@ -1,0 +1,59 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = programmeringmed.Net1.2
+build_property.RootNamespace = programmeringmed.Net1.2
+build_property.ProjectDir = /Users/edwin/Desktop/Edwin/Universitetet/Kurser/Webbutveckling med .Net/programmeringmed.Net1.2/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/edwin/Desktop/Edwin/Universitetet/Kurser/Webbutveckling med .Net/programmeringmed.Net1.2
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/edwin/Desktop/Edwin/Universitetet/Kurser/Webbutveckling med .Net/programmeringmed.Net1.2/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/edwin/Desktop/Edwin/Universitetet/Kurser/Webbutveckling med .Net/programmeringmed.Net1.2/Layout/Footers.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L0Zvb3RlcnMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/edwin/Desktop/Edwin/Universitetet/Kurser/Webbutveckling med .Net/programmeringmed.Net1.2/Layout/SideNav.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L1NpZGVOYXYucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/edwin/Desktop/Edwin/Universitetet/Kurser/Webbutveckling med .Net/programmeringmed.Net1.2/Pages/Converter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29udmVydGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/edwin/Desktop/Edwin/Universitetet/Kurser/Webbutveckling med .Net/programmeringmed.Net1.2/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/edwin/Desktop/Edwin/Universitetet/Kurser/Webbutveckling med .Net/programmeringmed.Net1.2/Pages/Json.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSnNvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/edwin/Desktop/Edwin/Universitetet/Kurser/Webbutveckling med .Net/programmeringmed.Net1.2/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/edwin/Desktop/Edwin/Universitetet/Kurser/Webbutveckling med .Net/programmeringmed.Net1.2/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-sj76dypjw4
+
+[/Users/edwin/Desktop/Edwin/Universitetet/Kurser/Webbutveckling med .Net/programmeringmed.Net1.2/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L05hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-bcgvlc7hfn

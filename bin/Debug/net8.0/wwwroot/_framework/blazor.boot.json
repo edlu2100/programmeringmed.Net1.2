@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "programmeringmed.Net1.2",
   "resources": {
-    "hash": "sha256-bGKYhQiwnk5CD7JIUPmcUIbxsW+K13g9nivuIcFVo44=",
+    "hash": "sha256-/z79fjQmzRYuaxcLfiVRqRAD98Oy3oKdfR9VcOg1ZXI=",
     "jsModuleNative": {
       "dotnet.native.8.0.0.ay72yxtvm5.js": "sha256-LjLDIz9+J7uuiwMlQ4HbNx2BnSpphOtO2MwkoI28vdI="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-cDuLeL3OCtVtiid/dyex1MVgbuzDSRwZxKzuP2Dp4mg=",
       "netstandard.wasm": "sha256-A0h86SDieTMoU/wU2JTszWCsUmMuguDcbap0b0BzsmI=",
       "System.Private.CoreLib.wasm": "sha256-/0DNIm/T0C07X7Tuz5uR8JvVCoAfEE2MnfPUSjyS9xc=",
-      "programmeringmed.Net1.2.wasm": "sha256-M31YR9U6HgvS7E7LA6YnBXQ2/cS5MnlNWlXuChTL6LM="
+      "programmeringmed.Net1.2.wasm": "sha256-imRJkChO4IpZSAGwE5BlRQQeJfLsl/5Qe3gxZzkd6sc="
     },
     "pdb": {
-      "programmeringmed.Net1.2.pdb": "sha256-sWChHTlTlRASQBU6VTHRjM9DsRwhx9OyRt3G+s67gZM="
+      "programmeringmed.Net1.2.pdb": "sha256-DgBiv+BxRzNu0e5NF1n6C4x7MwCpSk3T3flXW1Ty9eg="
     }
   },
   "cacheBootResources": true,

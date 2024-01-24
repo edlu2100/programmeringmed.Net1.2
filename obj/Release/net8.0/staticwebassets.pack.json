@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/edwin/Desktop/Edwin/Universitetet/Kurser/Webbutveckling med .Net/programmeringmed.Net1.2/bin/Release/net8.0/wwwroot/_framework/blazor.webassembly.js",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js"
+    },
+    {
+      "Id": "/Users/edwin/Desktop/Edwin/Universitetet/Kurser/Webbutveckling med .Net/programmeringmed.Net1.2/obj/Release/net8.0/compressed/jo05199iwb.gz",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "/Users/edwin/Desktop/Edwin/Universitetet/Kurser/Webbutveckling med .Net/programmeringmed.Net1.2/obj/Release/net8.0/scopedcss/bundle/programmeringmed.Net1.2.styles.css",
+      "PackagePath": "staticwebassets/programmeringmed.Net1.2.styles.css"
+    },
+    {
+      "Id": "/Users/edwin/Desktop/Edwin/Universitetet/Kurser/Webbutveckling med .Net/programmeringmed.Net1.2/wwwroot/css/app.css",
+      "PackagePath": "staticwebassets/css/app.css"
+    },
+    {
+      "Id": "/Users/edwin/Desktop/Edwin/Universitetet/Kurser/Webbutveckling med .Net/programmeringmed.Net1.2/wwwroot/css/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/edwin/Desktop/Edwin/Universitetet/Kurser/Webbutveckling med .Net/programmeringmed.Net1.2/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/edwin/Desktop/Edwin/Universitetet/Kurser/Webbutveckling med .Net/programmeringmed.Net1.2/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/Users/edwin/Desktop/Edwin/Universitetet/Kurser/Webbutveckling med .Net/programmeringmed.Net1.2/wwwroot/icon-192.png",
+      "PackagePath": "staticwebassets/icon-192.png"
+    },
+    {
+      "Id": "/Users/edwin/Desktop/Edwin/Universitetet/Kurser/Webbutveckling med .Net/programmeringmed.Net1.2/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/Users/edwin/Desktop/Edwin/Universitetet/Kurser/Webbutveckling med .Net/programmeringmed.Net1.2/wwwroot/sample-data/movie.json",
+      "PackagePath": "staticwebassets/sample-data/movie.json"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.build.programmeringmed.Net1.2.props",
+      "PackagePath": "build\\programmeringmed.Net1.2.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.buildMultiTargeting.programmeringmed.Net1.2.props",
+      "PackagePath": "buildMultiTargeting\\programmeringmed.Net1.2.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.buildTransitive.programmeringmed.Net1.2.props",
+      "PackagePath": "buildTransitive\\programmeringmed.Net1.2.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.programmeringmed.Net1.2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
